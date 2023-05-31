@@ -4,7 +4,8 @@ import { UserData } from "../Data";
 export default function DataTable() {
   const [tableData, setTablesData] = useState(UserData)
   return (
-    <table className="table" class="table  table-hover table-sm w-auto text-nowrap table-fit table-responsive table-bordered">
+    <div class="dd">
+    <table className="table" class="table  table-hover table-sm w-auto text-nowrap table-fit table-responsive table-bordered ">
       <thead>
         <tr>
           <th>ID</th>
@@ -59,5 +60,6 @@ export default function DataTable() {
         ))}
       </tbody>
     </table>
+    </div>
   )
 }

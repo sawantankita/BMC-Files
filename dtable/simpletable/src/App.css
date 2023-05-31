@@ -38,6 +38,7 @@
 }
 
 .table{
+  /* overflow-x:auto; */
   position: relative;
   width: 100%; 
   border-collapse: collapse; 
@@ -50,3 +51,19 @@ tr:hover td { background: transparent; }
 tr:nth-child(even) {
   background-color: #C0DBEA;}
 
+.dd{
+  overflow-x:auto;
+}
+.d1{
+  top:20px;
+  margin-left: 18px;
+  position: relative;
+  /* align-items: center; */
+  width: 32%;
+  height: 100%; 
+  border-radius: 25px;
+  border: 2px solid #C0DBEA;
+  padding: 20px; 
+  /* width: 200px; */
+  /* height: 150px; */
+}
